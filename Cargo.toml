@@ -1,0 +1,10 @@
+[package]
+authors = ["Jeff Muizelaar <jmuizelaar@mozilla.com>"]
+name = "macho-debug-map"
+version = "0.1.0"
+
+[dependencies]
+goblin = "0.0.14"
+
+[replace]
+"goblin:0.0.14" = { path = "/Users/jrmuizel/src/goblin" }
